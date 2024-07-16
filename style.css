@@ -1,0 +1,118 @@
+body{
+    font-family: 'fonteGeral';
+    background-color: hsl(257, 40%, 49%);
+}
+
+.banner {
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.botao {
+    display: flex;
+    text-align: center;
+    margin: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'fonteGeral';
+    width: 33%;
+    height: auto;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    margin: 15px;
+    cursor: pointer;
+    
+    img{
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.card2 {
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    margin: 15px;
+    cursor: pointer;
+    
+    img{
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.card3 {
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    margin: 15px;
+    cursor: pointer;
+    
+    img{
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@font-face {
+    font-family: 'fonteGeral';
+    src: url(./font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
